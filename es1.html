@@ -43,7 +43,6 @@
                 display: block;
                 margin-left: auto;
                 margin-right: auto;
-                width: 80%;
             }
             
             ol{
@@ -61,10 +60,21 @@
 
             }
 
-            #table{
+            table, th ,td{
+              width: 600px;
               margin-top: 20px;
               color: lightsteelblue;
               background-color: rgb(17, 17, 44);
+              border: 1px solid lightsteelblue;
+              border-collapse: collapse;
+            }
+
+            th, td {
+              padding: 5px;
+            }
+
+            img{
+              width: 80%;
             }
 
 
@@ -159,7 +169,41 @@
           </a>
         </div>
 
-        <a href="https://www.veratour.it/destinazioni/stati-uniti-e-canada/hawaii.cfm" target="_blank"><button id="button" class="center" value="Maggiori informazioni per viaggio alle Hawaii">Click qui oper maggiori informazioni</button></a>
+        <table class="center">
+          <tr>
+            <th>Contea</th>
+            <th>Popolazione</th>
+            <th>Sup. terrestre (km<sup>2</sup>)</th>
+          </tr>
+          <tr>
+            <td>Honolulu</td>
+            <td>953 207</td>
+            <td>1 546</td>
+          </tr>
+          <tr>
+            <td>Hawaii</td>
+            <td>185 079</td>
+            <td>10 433</td>
+          </tr>
+          <tr>
+            <td>Maui</td>
+            <td>154 834</td>
+            <td>3 010</td>
+          </tr>
+          <tr>
+            <td>Kauai</td>
+            <td>67 091</td>
+            <td>13</td>
+          </tr>
+          <tr>
+            <td>Kalawao</td>
+            <td>90</td>
+            <td>13</td>
+          </tr>
+          
+        </table>
+
+        <a href="https://it.wikipedia.org/wiki/Hawaii" target="_blank"><button id="button" class="center" value="Maggiori informazioni per viaggio alle Hawaii">Click qui oper maggiori informazioni</button></a>
 
     </body>
 </html>
